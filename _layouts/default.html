@@ -17,22 +17,29 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta property="og:locale" content="{{ site.lang | default: "en_US" }}">
-    <meta property="og:image" content="{{ site.url }}/img/logo.png" />
+    <meta property="og:image" content="{{ site.url }}/assets/img/logo.png" />
     <meta property="og:description" content="{{ page.title }}" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="500" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-    <link rel="icon" href="/img/favicon/favicon.ico">
-    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" href="/assets/img/favicon/favicon.ico">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/override.css' | relative_url }}">
   </head>
   <body>
     <header class="page-header" role="banner">
-      <img src="/img/logo-nobg.png" alt="Beringin MNH48" class="project-name" style="width:250px" />
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <img id="web-main-icon" src="/assets/img/logo-nobg.png" alt="Beringin MNH48" class="project-name" style="width:200px" />
+      {% if page.title %}
+      <h1 id="web-title" class="project-name">Beringin MNH48</h1>
+      <h2 id="page-title" class="project-tagline">{{ page.title }}</h2>
+      {% else %}
+      <h1 id="web-title" class="project-name">Beringin MNH48</h1>
+      <h2 id="page-title" class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      {% endif %}
+      {% comment %}
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -40,14 +47,16 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
+      {% endcomment %}
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      <a href="#web-main-icon" class="backtotop">↑</a>
       <footer class="site-footer">
-        <span class="site-footer-credits">&copy; Beringin MNHH48 2020.</span>
-        <span class="site-footer-owner">The source of this website is on <a href="https://github.com/beringin-mnh48/beringin-mnh48.github.io">GitHub</a> and maintained by the organization <a href="https://github.com/beringin-mnh48">Beringin MNH48</a>.</span>
+        <span class="site-footer-owner">&copy; Beringin MNH48 2020.</span>
+        <span class="site-footer-credits">The source of this website is on <a href="https://github.com/beringin-mnh48/beringin-mnh48.github.io">GitHub</a> and maintained by the organization <a href="https://github.com/beringin-mnh48">Beringin MNH48</a>.</span>
       </footer>
     </main>
   </body>

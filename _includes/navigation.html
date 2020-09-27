@@ -1,0 +1,65 @@
+{% if page.lang == "ms" %}
+  {% assign readin = "Baca dalam " %}
+  {% assign langEn = "Bahasa Inggeris" %}
+  {% assign langMs = "Bahasa Melayu (Rumi)" %}
+  {% assign langJw = "Bahasa Melayu (Jawi)" %}
+  {% assign langBr = "Bahasa Melayu (Beringin)" %}
+  {% assign nojs = "Pelayar anda tidak menyokong atau telah melumpuhkan JavaScript, anda tidak boleh menukar tema laman web." %}
+  {% assign layout = "rumi" %}
+  {% assign langlinkEn = page.url | replace: "/ms/", "/en/" %}
+  {% assign langlinkMs = page.url %}
+  {% assign langlinkJw = page.url | replace: "/ms/", "/ms-Arab/" %}
+  {% assign langlinkBr = page.url | replace: "/ms/", "/ms-Brgn/" %}
+{% elsif page.lang == "ms-Arab" %}
+  {% assign readin = "باچ دالم " %}
+  {% assign langEn = "بهاس ايڠݢريس" %}
+  {% assign langMs = "بهاس ملايو (رومي)" %}
+  {% assign langJw = "بهاس ملايو (جاوي)" %}
+  {% assign langJw = "بهاس ملايو (بريڠين)" %}
+  {% assign nojs = "ڤلاير اندا تيدق مڽوکوڠ اتاو تله ملومڤوهکن JavaScript (جاۏاسکريڤت)⹁ اندا تيدق بوليه منوکر تيما لامن ويب." %}
+  {% assign layout = "jawi" %}
+  {% assign langlinkEn = page.url | replace: "/ms-Arab/", "/en/" %}
+  {% assign langlinkMs = page.url | replace: "/ms-Arab/", "/ms/" %}
+  {% assign langlinkJw = page.url %}
+  {% assign langlinkBr = page.url | replace: "/ms-Arab/", "/ms-Brgn/" %}
+{% else %}
+  {% assign readin = "Read in " %}
+  {% assign langEn = "English" %}
+  {% assign langMs = "Malay (Rumi)" %}
+  {% assign langJw = "Malay (Jawi)" %}
+  {% assign nojs = "Your browser does not support or has disabled JavaScript, you cannot change the theme of the website." %}
+  {% assign layout = "english" %}
+  {% assign home = "Home" %}
+  {% assign yaya = "Yaya MNH48" %}
+  {% assign sitetitle = "MNH48 Meta" %}
+  {% assign sitedesc = "Meta information about Yaya MNH48" %}
+  {% assign rights = "All rights reserved." %}
+  {% assign langlinkEn = page.url %}
+  {% assign langlinkMs = page.url | replace: "/en/", "/ms/" %}
+  {% assign langlinkJw = page.url | replace: "/en/", "/ms-Arab/" %}
+{% endif %}
+
+<nav class="sidebar-nav">
+  <div style="width:100%">
+    <a href="{{site.baseurl}}{{langlinkEn}}" class="linkbutton" title="{{readin}}{{langEn}}{% if page.lang != 'en' %} - Read in English{% endif %}" lang="en">EN</a>
+    <a href="{{site.baseurl}}{{langlinkMs}}" class="linkbutton" title="{{readin}}{{langMs}}{% if page.lang != 'ms' %} - Baca dalam bahasa Melayu Rumi{% endif %}" lang="ms">MS</a>
+    <a href="{{site.baseurl}}{{langlinkJw}}" class="linkbutton" title="{{readin}}{{langJw}}{% if page.lang != 'ms-Arab' %} - باچ دالم بهاس ملايو جاوي{% endif %}" lang="ms-Arab">JW</a>
+    <a href="{{site.baseurl}}{{langlinkBr}}" class="linkbutton" title="{{readin}}{{langBr}}{% if page.lang != 'ms-Brgn' %} -{% endif %}" lang="ms-Arab">BR</a>
+    <a href="#" onclick="lightStyle();" class="linkbutton" style="width:8%" title="-" id="changeTheme">—</a>
+  </div>
+  <noscript>{{ nojs }}</noscript>
+
+  {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `layout: [layout]` in the front-matter. See readme for usage.
+  {% endcomment %}
+
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == layout %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</nav>

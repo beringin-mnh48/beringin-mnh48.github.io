@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2family=Harmattan:wght@400;700');
+
+@font-face {
+    font-family: "MNH48 Beringin PUA";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./MNH48BeringinPUA.woff') format('woff'),
+         url('./MNH48BeringinPUA.svg') format('svg');
+    unicode-range: U+EBA0-EBFF;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./MNH48BeringinPUA.woff') format('woff'),
+         url('./MNH48BeringinPUA.svg') format('svg');
+    unicode-range: U+EBA0-EBFF;
+}
+
+@font-face {
+    font-family: "MNH48 Beringin Tegak";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./MNH48BeringinTegak.woff') format('woff'),
+         url('./MNH48BeringinTegak.svg') format('svg');
+}
+
+@font-face {
+    font-family: "MNH48 Jawi Ceria";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./Harmattan.woff') format('woff');
+} /* Load the original file Harmattan while the modified font is being developed */
+
+p {
+    text-align: justify;
+}
+
+[lang|=ms-Brgn] {
+    font-family: "MNH48 Beringin PUA";
+	font-size: 1.5em;
+	line-height: 100%;
+	text-align: center;
+	direction: rtl;
+	writing-mode: vertical-rl;
+	margin-left: -0.3em;
+}
+
+[lang|=ms-Arab] {
+    font-family: "MNH48 Jawi Ceria";
+	direction: rtl;
+}
+
+table.overview, table.codepoint, table.substltr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}
+
+.overview, .substltr {
+    text-align: center;
+}
+
+.overview tr td:nth-child(n+2) {
+	font-family: "MNH48 Beringin PUA";
+	text-align: center;
+	direction: rtl;
+	writing-mode: vertical-rl;
+	padding: 0.5em;
+}
+
+.codepoint tr td:nth-child(1) {
+	text-align: center;
+}
+
+.codepoint tr td:nth-child(2) {
+	font-family: "MNH48 Beringin PUA";
+	font-size: 2em;
+	line-height: 100%;
+	text-align: center;
+	direction: rtl;
+	writing-mode: vertical-rl;
+	margin-left: -0.3em;
+}
+
+.substltr tr td:nth-child(1) {
+	font-family: "MNH48 Beringin Tegak";
+	font-size: 2em;
+	line-height: 100%;
+	text-align: center;
+	direction: rtl;
+	writing-mode: vertical-rl;
+	margin-left: -0.3em;
+	text-orientation: sideways;
+}
+
+.brgn {
+	font-family: "MNH48 Beringin Tegak";
+	font-size: 1em;
+	line-height: 100%;
+	text-align: center;
+	writing-mode: vertical-rl;
+	margin-left: -0.4em;
+	margin-right: 0.15em;
+}
+
+.brgnword {
+	font-family: "MNH48 Beringin Tegak";
+    font-size: 1.25em;
+    margin-left: 0em;
+    display: inline-block;
+    vertical-align: 0.5em;
+    line-height: 0.5em;
+    -moz-transform:scale(-1, -1);
+    -webkit-transform:scale(-1, -1);
+    -o-transform:scale(-1, -1);
+    -ms-transform:scale(-1, -1);
+    transform:scale(-1, -1);
+}
+
+.brgnwordlist {
+	font-family: "MNH48 Beringin Tegak";
+    font-size: 1.25em;
+    margin-left: 0em;
+    display: inline-block;
+    vertical-align: 0.1em;
+    line-height: 0.5em;
+    -moz-transform:scale(-1, -1);
+    -webkit-transform:scale(-1, -1);
+    -o-transform:scale(-1, -1);
+    -ms-transform:scale(-1, -1);
+    transform:scale(-1, -1);
+}
+
+.brgnpuachar {
+	font-family: "MNH48 Beringin PUA";
+	font-size: 1em;
+	line-height: 100%;
+	text-align: center;
+	writing-mode: vertical-rl;
+}
+
+.back {
+    display: block;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.backtotop {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.backtotop:hover {
+    background-color: darkgray;
+    color: white;
+}
