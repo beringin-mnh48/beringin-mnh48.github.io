@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2family=Harmattan:wght@400;700');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&text=%DA%A0%20%DA%A0%DA%A0%DA%A0%20%DA%A4%20%DA%A4%DA%A4%DA%A4%20%DA%A9%20%DA%A9%DA%A9%DA%A9%20%DD%A2%20%DD%A2%DD%A2%DD%A2%20%DA%86%20%DA%86%DA%86%DA%86%20%DB%8F%20%D9%80%DB%8F%20%DA%BD%20%DA%BD%DA%BD%DA%BD%20%D9%89%20%D9%89%D9%89%D9%89%20%E2%B9%81%E2%81%8F%20%E2%80%9D%E2%80%9F%E2%80%99%E2%80%9B&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
 
 @font-face {
     font-family: "MNH48 Beringin PUA";
@@ -28,14 +29,14 @@
     src: url('./MNH48BeringinTegak.woff') format('woff'),
          url('./MNH48BeringinTegak.svg') format('svg');
 }
-
+/*
 @font-face {
     font-family: "MNH48 Jawi Ceria";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('./Harmattan.woff') format('woff');
-} /* Load the original file Harmattan while the modified font is being developed */
+    src: url('./mnh48jawiceria.woff') format('woff');
+} Use Harmattan from Google Fonts service while the modified font is being developed */
 
 p {
     text-align: justify;
@@ -52,7 +53,9 @@ p {
 }
 
 [lang|=ms-Arab] {
-    font-family: "MNH48 Jawi Ceria";
+    font-family: "Harmattan";
+    /*font-family: "MNH48 Jawi Ceria";*/
+	font-size: 1.3em;
 	direction: rtl;
 }
 
@@ -97,6 +100,13 @@ table.overview, table.codepoint, table.substltr{
 	writing-mode: vertical-rl;
 	margin-left: -0.3em;
 	text-orientation: sideways;
+}
+
+.substltr tr td:nth-child(5) {
+	font-family: "Harmattan";
+    /*font-family: "MNH48 Jawi Ceria";*/
+	font-size: 1.3em;
+	direction: rtl;
 }
 
 .brgn {

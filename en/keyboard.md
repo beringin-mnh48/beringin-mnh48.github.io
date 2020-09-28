@@ -19,7 +19,7 @@ There are two major ways to write Beringin, one is using normal keyboard and the
 
 ## Normal Keyboard
 
-You can write Beringin by using normal Latin-based keyboard. This is done by assigning specific Latin letter to specific Beringin letter based on the [table here](latin-table) and by using the specified font from [here](../mnh48-beringin/en) that will display Beringin letters in place of Latin letters.
+You can write Beringin by using normal Latin-based keyboard. This is done by assigning specific Latin letter to specific Beringin letter based on the [table here](latin-table.html) and by using the specified font from [here](../mnh48-beringin/en) that will display Beringin letters in place of Latin letters.
 
 Pros:
 - Easy to use
@@ -28,12 +28,12 @@ Pros:
 Cons:
 - Need to mix different fonts if you want to display both Beringin and Latin in the same sentence, this poses problem for certain software where only one font is allowed to be used on the whole instance
 
-You could see the [table](latin-table) for all of the assigned keys for each Beringin letters, or you can read [this page](normal-keyboard) first to see the different types of assignment that were done for those letters.
+You could see the [table](latin-table.html) for all of the assigned keys for each Beringin letters, or you can read [this page](normal-keyboard.html) first to see the different types of assignment that were done for those letters.
 
 
 ## Special Keyboard
 
-You can write Beringin by using special keyboard that access Unicode Private Use Area (PUA). This is done by assigning certain codepoints in PUA to specific Beringin letter as specified on this [table](unicode-table) and use the specified font from [here](../mnh48-beringin/en) that will display Beringin letters independent of Latin letters.
+You can write Beringin by using special keyboard that access Unicode Private Use Area (PUA). This is done by assigning certain codepoints in PUA to specific Beringin letter as specified on this [table](unicode-table.html) and use the specified font from [here](../mnh48-beringin/en) that will display Beringin letters independent of Latin letters.
 
 Pros:
 - Don't need to mix fonts if you want to display both Beringin and Latin in the same sentence, this helps in certain software where only one font is allowed to be used on the whole instance as most operating system will just substitute Latin letters from other font if Beringin font is used
@@ -41,7 +41,7 @@ Pros:
 Cons:
 - Need the font to be installed
 
-You could see the [this page](special-keyboard) for more details on what types of keyboard software are available to write Beringin and how to write the letters out on those keyboards.
+You could see the [this page](special-keyboard.html) for more details on what types of keyboard software are available to write Beringin and how to write the letters out on those keyboards.
 
 
 ## Recommendation

@@ -1,5 +1,6 @@
 ---
-title: Table of Beringin alphabet 
+title: Table of Beringin alphabet
+description: Table of Beringin alphabet assigned to Latin alphabet
 lang: en
 language: en
 ---
@@ -7,7 +8,7 @@ language: en
 [← Back to Normal Keyboard](normal-keyboard.html)
 {: .back}
 
-The tables here list what you should type to display respective Beringin letters when you are using MNH48 Beringin Tegak and/or MNH48 Beringin Melintang font(s). Corresponding letter in Rumi (Latin) and Jawi (Arabic) alphabets are also included for reference.
+The tables here list what you should type to display respective Beringin letters when you are using MNH48 Beringin Tegak and/or MNH48 Beringin Melintang font(s). Corresponding letter in International Phonetic Alphabet (IPA), Rumi (Latin) and Jawi (Arabic) alphabets are also included for reference.
 
 
 ## Table of Contents

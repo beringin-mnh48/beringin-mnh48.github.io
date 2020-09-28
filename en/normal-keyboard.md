@@ -106,7 +106,7 @@ Example:
   - reading: "khoo-shoock" (IPA: /xu.ʃuk/)
   - meaning: the state "steadfast of the heart"
 2. Latin letters `Wafoto` where `W` is assigned to additional letter:
-  - results: <span class="brgnwordlist">Wafoto</span> (letter SWA, vowel A, letter EHF, voewel O, letter TEH, vowel O)
+  - results: <span class="brgnwordlist">Wafoto</span> (letter SWA, vowel A, letter EHF, vowel O, letter TEH, vowel O)
   - spelling in in Latin script: swafoto
   - reading: "swar-phoh-toah" (IPA: /sʷa.fo.to/)
   - meaning: the action "taking photo of yourself or yourselves by your own", also used to mean "selfie" and "wefie"
@@ -114,7 +114,7 @@ Example:
 
 ### Punctuation Marks
 
-Punctuation marks on the Latin keyboard has two functions in regard to using it to display Beringin alphabet. Some of the punctuation mark existing on Latin keyboard are assigned to the equivalent marks in Beringin alphabet, some are assigned for different marks, and some are assigned for additional letters that could not be matched by uppercase Latin letters as specified in the table [linked earlier](latin-table.html).
+Punctuation marks on the Latin keyboard has three functions in regard to using it to display Beringin alphabet. Some of the punctuation mark existing on Latin keyboard are assigned to the equivalent marks in Beringin alphabet, some are assigned for different marks, and some are assigned for additional letters that could not be matched by uppercase Latin letters as specified in the table [linked earlier](latin-table.html).
 
 
 #### Covering the Equivalent Punctuation Marks

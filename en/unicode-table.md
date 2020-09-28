@@ -1,7 +1,7 @@
 ---
 title: Table of Beringin alphabet in Private Use Area
+description: Table of Beringin alphabet codepoints in Unicode Private Use Area
 lang: en
-language: en
 ---
 
 [← Back to Special Keyboard](special-keyboard.html)
@@ -30,7 +30,7 @@ An enquiry has been sent to [Kreative Korporation](https://www.kreativekorp.com)
 
 As such, please avoid writing Beringin using these Unicode codepoints until they add it to the registry to avoid unnecessary re-assignment. More information on the reason behind this is available on the [Unicode Registry](special-keyboard.html#unicode-registry) section of [Special Keyboard](special-keyboard.html) page.
 
-The content of this page is the slightly modified form of the "Planned Reservation of Encoding for Aksara Beringin" file in Portable Document Format (PDF) that was sent to Kreative Korporation. The original file can be downloaded from [here](beringin-for-ucsur.pdf).
+The content of this page is the slightly modified form of the "Planned Reservation of Encoding for Aksara Beringin" file in Portable Document Format (PDF) that was sent to Kreative Korporation. The original file can be downloaded from [here](/docs/beringin-for-ucsur.pdf).
 
 
 ## Overview Table
