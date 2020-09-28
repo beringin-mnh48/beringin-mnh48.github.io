@@ -2,7 +2,6 @@
 title: Table of Beringin alphabet
 description: Table of Beringin alphabet assigned to Latin alphabet
 lang: en
-language: en
 ---
 
 [← Back to Normal Keyboard](normal-keyboard.html)
