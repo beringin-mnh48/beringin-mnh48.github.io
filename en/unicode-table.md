@@ -62,7 +62,7 @@ U+EBF0 .. U+EBFF : Beringin extension (currently 15 consonants)
 
 | Codepoint | Character | Name and Description |
 | --------- | --------- | -------------------- |
-|   U+EBA0  |           | **BERINGIN LETTER BEH**<br>- Equivalent letter in Rumi (Latin script): B<br>- Equivalent letter in Jawi (Arabic script): <span lang="ms-Arab">ب</span><br>- Equivalent letter in IPA: <code>/b/</code><br>- Consonant of voiced bilabial plosive (Indonesian & Malay) |
+|   U+EBA0  |           | **BERINGIN LETTER BEH**<br>- Equivalent letter in Rumi (Latin script): B<br>- Equivalent letter in Jawi (Arabic script): <span lang="ms-Arab">ب</span><br>- Equivalent letter in IPA: <code>/b/</code><br>- Consonant of voiced bilabial plosive (Indonesian & Malay) |
 |   U+EBA1  |           | **BERINGIN LETTER PEH**<br>- Equivalent letter in Rumi (Latin script): P<br>- Equivalent letter in Jawi (Arabic script): <span lang="ms-Arab">ڤ</span><br>- Equivalent letter in IPA: <code>/p/</code><br>- Consonant of voiceless bilabial plosive (Indonesian & Malay) |
 |   U+EBA2  |           | **BERINGIN LETTER DEH**<br>- Equivalent letter in Rumi (Latin script): D<br>- Equivalent letter in Jawi (Arabic script): <span lang="ms-Arab">د</span><br>- Equivalent letter in IPA: <code>/d/</code><br>- Consonant of voiced alveolar plosive (Indonesian & Malay) |
 |   U+EBA3  |           | **BERINGIN LETTER TEH**<br>- Equivalent letter in Rumi (Latin script): T<br>- Equivalent letter in Jawi (Arabic script): <span lang="ms-Arab">ت</span><br>- Equivalent letter in IPA: <code>/t/</code><br>- Consonant of voiceless dental plosive (Indonesian)<br>- Consonant of voiceless alveolar plosive (Malay) |

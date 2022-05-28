@@ -62,7 +62,7 @@ U+EBF0 .. U+EBFF : Beringin Sambungan (ketika ini merangkumi 15 konsonan)
 
 | Titik Kod | Aksara | Nama dan Keterangan |
 | --------- | --------- | -------------------- |
-|   U+EBA0  |           | **HURUF BERINGIN BEH**<br>- Huruf berkaitan dalam tulisan Rumi: B<br>- Huruf berkaitan dalam tulisan Jawi: <span lang="ms-Arab">ب</span><br>- Huruf berkaitan dalam AFA: <code>/b/</code><br>- Konsonan letupan dwibibir bersuara (Bahasa Indonesia & Bahasa Melayu) |
+|   U+EBA0  |           | **HURUF BERINGIN BEH**<br>- Huruf berkaitan dalam tulisan Rumi: B<br>- Huruf berkaitan dalam tulisan Jawi: <span lang="ms-Arab">ب</span><br>- Huruf berkaitan dalam AFA: <code>/b/</code><br>- Konsonan letupan dwibibir bersuara (Bahasa Indonesia & Bahasa Melayu) |
 |   U+EBA1  |           | **HURUF BERINGIN PEH**<br>- Huruf berkaitan dalam tulisan Rumi: P<br>- Huruf berkaitan dalam tulisan Jawi: <span lang="ms-Arab">ڤ</span><br>- Huruf berkaitan dalam AFA: <code>/p/</code><br>- Konsonan letupan dwibibir tak bersuara (Bahasa Indonesia & Bahasa Melayu) |
 |   U+EBA2  |           | **HURUF BERINGIN DEH**<br>- Huruf berkaitan dalam tulisan Rumi: D<br>- Huruf berkaitan dalam tulisan Jawi: <span lang="ms-Arab">د</span><br>- Huruf berkaitan dalam AFA: <code>/d/</code><br>- Konsonan letupan gusi bersuara (Bahasa Indonesia & Bahasa Melayu) |
 |   U+EBA3  |           | **HURUF BERINGIN TEH**<br>- Huruf berkaitan dalam tulisan Rumi: T<br>- Huruf berkaitan dalam tulisan Jawi: <span lang="ms-Arab">ت</span><br>- Huruf berkaitan dalam AFA: <code>/t/</code><br>- Konsonan letupan gusi tak bersuara (Bahasa Indonesia)<br>- Konsonan voiceless alveolar plosive (Bahasa Melayu) |
